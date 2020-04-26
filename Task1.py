@@ -81,3 +81,10 @@
 '''
     Task 7
 '''
+def sum_or_sum(mylist):
+    if len(mylist)%2==0:
+        print(sum(mylist))
+    else:
+        print(max(mylist))
+li = [2,4,2,6,17,9,1]
+sum_or_sum(li)
