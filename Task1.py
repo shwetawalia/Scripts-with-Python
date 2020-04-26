@@ -1,5 +1,5 @@
 '''
-    Task 1
+    Task 1 
 '''
 
 
@@ -41,14 +41,14 @@
     Task 4
 '''
 
-# def last_two(mystring):
-#     if mystring.count(mystring)>=2:
-#         print("Error")
-#     else:
+def last_two(mystring):
+    if len(mystring)<=2:
+        print("Error")
+    else:
 
-#         print(mystring[-2:])
+        print(mystring[-2:])
 
-# last_two("shweta")
+last_two("shweta")
 
 '''
     Task 5
@@ -81,10 +81,10 @@
 '''
     Task 7
 '''
-def sum_or_sum(mylist):
-    if len(mylist)%2==0:
-        print(sum(mylist))
-    else:
-        print(max(mylist))
-li = [2,4,2,6,17,9,1]
-sum_or_sum(li)
+# def sum_or_sum(mylist):
+#     if len(mylist)%2==0:
+#         print(sum(mylist))
+#     else:
+#         print(max(mylist))
+# li = [2,4,2,6,17,9,1]
+# sum_or_sum(li)
