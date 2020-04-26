@@ -53,3 +53,31 @@
 '''
     Task 5
 '''
+# def seq_check(nums):
+#     for i in range(0,len(nums)-1):
+#         if nums[i]==1:
+#             if nums[i+1]==2:
+#                 if nums[i+2]==3:
+#                     return True
+
+#     return False       
+
+
+# li=[1, 2, 1, 3, 1, 2, 1,2,3,2,4,1,5]
+# print(seq_check(li))
+
+'''
+    Task 6
+'''
+# def compare_len(s1,s2):
+#     diff=abs(s1-s2)
+#     print(diff)
+#     # if (diff>=0):
+#     #     print(diff)
+#     # else:
+#     #     pass
+# compare_len(13,13)
+
+'''
+    Task 7
+'''
